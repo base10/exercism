@@ -43,6 +43,6 @@ class GigasecondTest < Minitest::Test
   # This test is for the sake of people providing feedback, so they
   # know which version of the exercise you are solving.
   def test_bookkeeping
-    assert_equal 1, Gigasecond::VERSION
+    assert_equal 2, Gigasecond::VERSION
   end
 end

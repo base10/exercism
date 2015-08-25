@@ -1,11 +1,11 @@
 class Gigasecond
   require "time"
 
-  VERSION = 1
+  VERSION = 2
   GIGASECONDS = 10**9
 
   def self.from(date)
-    Time.strptime(anniversary_seconds(date).to_s, "%s")
+    Time.at(anniversary_seconds(date))
   end
 
   def self.anniversary_seconds(date)
