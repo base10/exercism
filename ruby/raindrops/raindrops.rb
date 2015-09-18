@@ -1,7 +1,7 @@
 require "pry"
 
 class Raindrops
-  VERSION = 1
+  VERSION = 2
 
   def self.convert(number)
     factors = [
